@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+        <meta name="Home Description" content="PhuocTan">
+        <meta name="author" conten="Phước Tân">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="20Thang10.css">
+        <script src="20Thang10.js" defer></script>
+        <style>
+            /* CSS cho thanh tiến trình */
+            #progressContainer {
+                width: 100%;
+                background: #ddd;
+                border-radius: 5px;
+                overflow: hidden;
+                display: none; /* Ẩn thanh tiến trình ban đầu */
+            }
+    
+            #progressBar {
+                height: 30px;
+                width: 0;
+                background: #4caf50;
+                transition: width 1s; /* Thay đổi độ rộng thanh một cách mượt mà */
+            }
+    
+            #content {
+                display: none; /* Ẩn nội dung ban đầu */
+            }
+        </style>
+</head>
+<body>
+    <div id="progressContainer">
+        <div id="progressBar"></div>
+    </div>
+    <h1>
+        <b>PHUOC TAN</b>
+    </h1>
+    <h2>
+        Mẹ ấn vô cái này đi mẹ
+        <br>
+        <br>
+        <button id="moThiep">
+            <h2>
+                Thiệp của con trai nè
+            </h2>
+        </button>
+    </h2>
+    <dialog id="myDialog">
+        <h1>
+            Lời chúc của con
+        </h1>
+        <p>
+            Mẹ ơi, nhân ngày 20/10, con chúc mẹ luôn vui vẻ, mạnh khỏe và hạnh phúc. Mẹ là người phụ nữ tuyệt vời nhất trong cuộc đời con. Con yêu mẹ nhiều lắm!
+        </p>
+        <button id="dongThiep">
+            Đóng hộp thoại
+        </button>
+    </dialog>
+    
+</body>

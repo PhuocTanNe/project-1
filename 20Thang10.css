@@ -1,0 +1,56 @@
+body{
+    background-image: url("/anh-nen-mau-xanh-la-cay-cute-dep_032126967.jpg");
+    background-size: cover;
+    
+    color: #140101;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1, h2, button {
+    text-align: center;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: rgb(8, 1, 1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: bounce 1s infinite; 
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#moThiep{
+    background-image: url("/istockphoto-545240218-612x612.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+#myDialog{
+    background-image: url("/hinh-nen-powerpoint-dep-nhat-2.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+
